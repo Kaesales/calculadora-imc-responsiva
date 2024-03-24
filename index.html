@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Document</title>
 </head>
@@ -14,11 +14,12 @@
       </section>
       <section id="calculator">
         <form id="form">
-            <h1>Calculadora - imc</h1>
+            <h1 id="title">Calculadora - imc</h1>
                    
              <div class="input-box">
+
                         <label for="weight">
-                            peso em kg
+                            Peso em kg
                         </label>
                     
                     
@@ -27,13 +28,20 @@
                         <input type="number" id="weight" required>
                         <span>Kg</span>
                     </div>
+            </div>
+
+
+            <div class="input-box">
+                    <label for="weight">
+                        Altura em metros
+                    </label>
 
                     <div class="input-field">
                         <i class="fa-solid fa-ruler"></i>
                         <input type="number" id="height" required>
                         <span>m</span>
                     </div>
-            </div>
+           </div>
 
             <button id="calculate">
 
@@ -42,17 +50,17 @@
             </button>
         </form>
 
-        <div id="infos">
+        <div id="infos" class="hidden">
                 <div id="result">
                         <div id="bmi">
-                            <span id="value"></span>
+                            <span id="value">55</span>
                             <span>
                                 Seu IMC
                             </span>
                         </div>
                         <div id="description">
                             <span>
-
+                             55
                             </span>
                         </div>
                 </div>
