@@ -129,7 +129,7 @@ border-radius: 3px;
     color: #cbd5e1;
 }
 
-#descrption{
+#description{
     width: 15.5rem;
 }
 
@@ -155,4 +155,12 @@ border-radius: 3px;
 
 .hidden{
     display: none;
+}
+
+.normal{
+    color:#16a34a;
+}
+
+.attention{
+    color:#dc2626;
 }
